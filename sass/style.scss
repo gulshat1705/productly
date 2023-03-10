@@ -1,8 +1,9 @@
-html {
-    font-size: 10px;
-}
+@import "base/base";
+@import "abstract/constants";
 
-body {
-    font-size: 1.6rem;
-    font-family: 'Open Sans', Verdana, sans-serif;
-}
+//layouts
+@import "layouts/wrapper";
+@import "layouts/header";
+
+//components
+@import "component/contact-us";
