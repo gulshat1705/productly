@@ -1,8 +1,13 @@
+// @import "../node_modules/normalize-scss/sass/normalize";
+@import "base/normalize";
 
 @import "abstract/constants";
+@import "abstract/mixins";
+@import "abstract/placeholders";
 
 @import "base/base";
 @import "base/buttons";
+@import "base/logo";
 
 //layouts
 @import "layouts/wrapper";
@@ -10,4 +15,5 @@
 
 //components
 @import "component/contact-us";
-@import "components/promo"
+@import "component/promo";
+@import "component/navigation";
