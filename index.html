@@ -152,16 +152,34 @@
     </section>
     <section class="about-us">
         <div class="wrapper">
-            <h2>About Us</h2>
-            <p>Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+            <h2 class="about-us__title">About Us</h2>
+            <p class="about-us__description">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
             <div class="layout-3-column">
+                <div class="employee block-shadowed">
+                    <div class="employee-container">
+                        <h5>Kathy Rosenberg</h5>
+                        <p class="employee__title">Product Mannager</p>
+                        <a class="employee__contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+                    </div>
+                    <img class="employee__photo" src="/img/employees/Avator (1).png" alt="Productly LLC">
+                </div>
                 <div class="employee block-shadowed">
                     <div class="employee__content">
                         <h5>Kathy Rosenberg</h5>
                         <p class="employee__title">Product Mannager</p>
-                        <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+                        <a class="employee__contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
                     </div>
+                    <img class="employee__photo" src="/img/employees/Avator (1).jpg" alt="Productly LLC">
                 </div>
+                <div class="employee block-shadowed">
+                    <div class="employee__content">
+                        <h5>Kathy Rosenberg</h5>
+                        <p class="employee__title">Product Mannager</p>
+                        <a class="employee__contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+                    </div>
+                    <img class="employee__photo" src="/img/employees/Avator.png" alt="Productly LLC">
+                </div>
+
             </div>
         </div>
     </section>
@@ -188,7 +206,7 @@
                         </div>
                         <textarea class="contact-us__line" name="question" cols="30" rows="10" placeholder="What do you want to ask?"></textarea>
                         <div class="contact-us__button">
-                            <button class="button button_colored">Send</button>
+                            <button class="button button_colored" type="submit">Send</button>
                         </div>
                      </form>
                 </div>
@@ -196,13 +214,36 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="wrapper">
-            <div class="layout-4-column">
-                <a href="#" class="logo">Logo</a>
-                <div class="footer-navigation">
-                    <h4>Quick Links</h4>
+        <div class="wrapper footer__wrapper">
+            <a href="#" class="logo">
+                <img src="/img/Logo.png" alt="Productly LLC">
+            </a>
+            <div class="footer-navigation layout-3-column">                
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
                     <ul class="footer-navigation__links">
                         <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">Disclamer</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
             </div>
