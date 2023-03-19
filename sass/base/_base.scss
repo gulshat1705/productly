@@ -20,7 +20,10 @@ h2 {
 }
 
 h3 {
-    @include font($size: 2.4rem, $height:3.4rem)
+    @include font($size: 2.4rem, $height:3.4rem);
+    @include media-mobile {
+        @include font($height: 3.2rem, $size: 2.2rem);
+    }
 }
 
 h4 {
